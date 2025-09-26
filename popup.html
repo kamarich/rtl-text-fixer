@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTL Text Fixer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 RTL Text Fixer</h1>
+            <p>Universal text direction correction</p>
+        </header>
+
+        <main>
+            <div class="status-section">
+                <div class="status-item">
+                    <label>Extension Status:</label>
+                    <span id="extension-status" class="status-active">Active</span>
+                </div>
+
+                <div class="status-item">
+                    <label>Current Site:</label>
+                    <span id="current-site">Unknown</span>
+                </div>
+
+                <div class="status-item">
+                    <label>Site Status:</label>
+                    <span id="site-status" class="status-unknown">Unknown</span>
+                </div>
+            </div>
+
+            <div class="controls-section">
+                <button id="toggle-btn" class="btn btn-primary">
+                    Disable Extension
+                </button>
+
+                <button id="site-toggle-btn" class="btn btn-warning">
+                    Enable for this Site
+                </button>
+
+                <button id="refresh-btn" class="btn btn-secondary">
+                    Refresh Content
+                </button>
+
+                <button id="visual-toggle-btn" class="btn btn-info">
+                    Disable Blue Effect
+                </button>
+            </div>
+
+            <div class="info-section">
+                <h3>🌍 Universal Extension!</h3>
+                <p>This extension works on <strong>any website</strong> and you need to <strong>manually enable</strong> it for each site.</p>
+
+                <h3>How to use:</h3>
+                <ul>
+                    <li>🌐 Visit any website you want</li>
+                    <li>🔧 Open this popup</li>
+                    <li>✅ Click "Enable for this Site"</li>
+                    <li>📝 Type your Arabic/Persian text</li>
+                </ul>
+
+                <div class="success">
+                    <strong>✅ Full Control:</strong> Disabled by default for all sites - you choose which ones to enable!
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Version 2.0.0 | Universal Support</p>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

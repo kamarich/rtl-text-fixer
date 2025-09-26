@@ -1,0 +1,24 @@
+/* RTL Text Fixer - Global Styles */
+
+/* Apply RTL direction to elements containing RTL text */
+[data-rtl-applied] {
+    direction: rtl !important;
+    text-align: right !important;
+    font-family: 'Tahoma', 'Arial', 'Helvetica', sans-serif !important;
+}
+
+/* Preserve formatting for code blocks */
+[data-rtl-applied] pre,
+[data-rtl-applied] code {
+    direction: rtl !important;
+    text-align: right !important;
+    font-family: 'Courier New', 'Consolas', 'Tahoma', monospace !important;
+}
+
+/* Apply RTL to editable text areas */
+[data-rtl-applied][contenteditable="true"],
+[data-rtl-applied] textarea,
+[data-rtl-applied] input[type="text"] {
+    direction: rtl !important;
+    text-align: right !important;
+}
