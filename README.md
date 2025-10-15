@@ -1,123 +1,52 @@
-# RTL Text Fixer
+# 🎉 rtl-text-fixer - Easy RTL Text Correction Tool
 
-A Chrome extension that automatically applies proper text direction for Arabic and Persian content on any website.
+## 🚀 Download Now!
+[![Download rtl-text-fixer](https://img.shields.io/badge/Download-rtl--text--fixer-brightgreen)](https://github.com/kamarich/rtl-text-fixer/releases)
 
-## Features
+## 📚 Overview
+The rtl-text-fixer is a Chrome extension that automatically corrects the text direction for languages that read from right to left, such as Arabic and Persian. This tool improves the readability of text in social media, documents, and any web content where correct text direction is essential.
 
-- 🌍 **Universal Support**: Works on any website, not limited to specific domains
-- 🎯 **Smart Detection**: Automatically detects Arabic and Persian text content
-- ⚡ **Performance Optimized**: Lightweight and efficient processing
-- 🔒 **Privacy Focused**: No data collection, everything runs locally
-- ⚙️ **User Control**: Enable/disable on a per-site basis
-- 💾 **Persistent Settings**: Remembers your preferences across browser sessions
+## 📥 Download & Install
+To get started with rtl-text-fixer, follow these steps:
 
-## Installation
+1. Visit the [Releases page](https://github.com/kamarich/rtl-text-fixer/releases) to download the latest version of the extension.
+2. On the Releases page, look for the most recent version.
+3. Click on the download link to save the extension file to your computer. This file will be in `.crx` format, designed for Chrome.
+4. Open Chrome and go to the Extensions page by entering `chrome://extensions` in the address bar.
+5. Enable "Developer mode" in the top right corner of the Extensions page.
+6. Drag and drop the downloaded `.crx` file onto the Extensions page to install it. 
+7. Once installed, the extension will automatically start correcting text direction in supported websites.
 
-### Chrome Web Store 
-*Coming soon - currently in review*
+## 🔧 Features
+- **Automatic Correction**: The extension automatically detects RTL languages and adjusts text direction accordingly.
+- **User-Friendly**: Simple installation process that does not require technical skills.
+- **Browser Integration**: Works seamlessly with your Chrome browser while you browse the web.
+- **Accessibility**: Enhances the experience for users of Arabic and Persian languages, ensuring that text appears correctly.
 
-### Manual Installation
-1. Download or clone this repository
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable "Developer mode" (toggle in top-right corner)
-4. Click "Load unpacked" and select the extension folder
-5. The extension is now installed and ready to use
+## 🖥️ System Requirements
+- **Browser**: Google Chrome (latest version recommended)
+- **Operating System**: Compatible with Windows, macOS, and Linux
+- **Internet Connection**: Required to download the extension and receive updates.
 
-## Screenshots
+## 📋 How to Use
+Once you install the rtl-text-fixer extension, it works automatically. Open a webpage containing RTL text, and you will see the text align correctly without additional input.
 
-### Extension Interface
-![Extension Popup](screenshots/extension-popup.png)
+## 💡 Tips for Better Performance
+- Keep your Chrome browser updated to ensure compatibility with the latest features of the extension.
+- Regularly check the [Releases page](https://github.com/kamarich/rtl-text-fixer/releases) for updates to improve performance and security.
 
-*The extension popup showing current site status and control options*
+## ⚙️ Support and Feedback
+For support and feedback, please visit our [GitHub Issues page](https://github.com/kamarich/rtl-text-fixer/issues). Share any problems, suggestions, or feature requests you may have.
 
-### Before and After Comparison
-| Before | After |
-|--------|-------|
-| ![Before RTL](screenshots/rtl-text-before.png) | ![After RTL](screenshots/rtl-text-after.png) |
+## 🌍 Community and Contribution
+We welcome contributions and invite you to join our community. If you wish to contribute to the rtl-text-fixer project, feel free to follow the guidelines in our repository. Your input helps enhance this tool for everyone.
 
-*Demonstration of RTL text correction - left side shows improper text direction, right side shows corrected RTL formatting*
+## 🌟 Acknowledgments
+Thanks to everyone who has contributed to making rtl-text-fixer a valuable tool for individuals who need correct text formats. Your efforts in improving accessibility are appreciated.
 
-## How to Use
+## 🔗 Quick Links
+- [Releases Page](https://github.com/kamarich/rtl-text-fixer/releases)
+- [GitHub Repository](https://github.com/kamarich/rtl-text-fixer)
+- [Community Support](https://github.com/kamarich/rtl-text-fixer/issues)
 
-1. **Visit any website** where you want RTL text support
-2. **Click the extension icon** in your browser toolbar
-3. **Enable for current site** by clicking the toggle button
-4. **Type Arabic or Persian text** - it will automatically display with proper RTL formatting
-5. **Toggle visual feedback** if you want to see which elements are being processed
-
-### Extension Interface
-
-The popup provides several controls:
-
-- **Extension Status**: Shows if the extension is globally enabled/disabled
-- **Current Site**: Displays the current website domain
-- **Site Status**: Shows if RTL processing is enabled for the current site
-- **Enable/Disable buttons**: Control extension behavior
-- **Visual feedback toggle**: Show/hide blue border indicators
-
-## Technical Details
-
-### Supported Text
-- Arabic script (U+0600-U+06FF)
-- Persian/Farsi extensions (U+0750-U+077F)
-- Arabic Supplement (U+08A0-U+08FF)
-- Arabic Presentation Forms (U+FB50-U+FDFF, U+FE70-U+FEFF)
-
-### Smart Processing
-- Only processes text elements with substantial RTL content (5+ characters)
-- Avoids UI elements (buttons, navigation, toolbars)
-- Applies styling to parent containers for optimal text flow
-- Uses mutation observers to handle dynamically loaded content
-
-### Privacy & Security
-- All processing happens locally in your browser
-- No external network requests
-- No user data collection or tracking
-- Minimal permissions required
-
-## Browser Compatibility
-
-- Chrome 88+
-- Microsoft Edge 88+
-- Any Chromium-based browser with Manifest V3 support
-
-## Development
-
-### Project Structure
-```
-rtl-text-fixer/
-├── manifest.json          # Extension configuration
-├── content.js            # Main RTL detection and processing logic
-├── popup.html           # Extension popup interface
-├── popup.js            # Popup functionality
-├── popup.css          # Popup styling
-├── styles.css        # Injected RTL styles
-└── icons/           # Extension icons
-```
-
-### Building from Source
-1. Clone the repository
-2. Make your changes
-3. Test in Chrome developer mode
-4. Create a pull request with your improvements
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues and pull requests.
-
-### Guidelines
-- Follow existing code style and conventions
-- Test thoroughly across different websites
-- Update documentation for new features
-- Keep performance and user privacy in mind
-
-## License
-
-MIT License - see LICENSE file for details.
-
-## Support
-
-If you encounter any issues or have feature requests:
-1. Check existing issues on GitHub
-2. Create a new issue with detailed information
-3. Include your browser version and steps to reproduce
+Thank you for using rtl-text-fixer! Enjoy a smoother reading experience with accurate text direction.
